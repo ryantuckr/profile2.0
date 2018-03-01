@@ -175,6 +175,11 @@ body {
     /* background-color: whitesmoke; */
      opacity: .9; 
   }
+  #touch {
+    color: #f4511e;
+    text-decoration: none;
+    font-weight: bold;
+  }
   #footer {
     background-image: url("");
     background-repeat: no-repeat;
