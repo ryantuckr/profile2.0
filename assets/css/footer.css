@@ -1,0 +1,59 @@
+#lab_social_icon_footer {
+    padding: 10px 0;
+   
+  }
+  
+  #lab_social_icon_footer a {
+    color: #f4511e;
+    
+  }
+  
+  #lab_social_icon_footer .social:hover {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+  }
+  
+  #lab_social_icon_footer .social {
+    -webkit-transform: scale(0.8);
+    /* Browser Variations: */
+    
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+  }
+
+  #lab_social_icon_footer {
+    background-color: #f6f6f6;
+  }
+  /*
+      Multicoloured Hover Variations
+  */
+
+  #lab_social_icon_footer #social-gh:hover {
+    color:grey;
+  }
+  
+  #lab_social_icon_footer #social-li:hover {
+    color: #0077b5;
+  }
+  
+  #lab_social_icon_footer #social-em:hover {
+    color: #f39c12;
+  }
+    
+  #lab_social_icon_footer #social-tw:hover {
+    color: #4099FF;
+  }
+  
+  #lab_social_icon_footer #social-fb:hover {
+    color: #3B5998;
+  }
+
+  #lab_social_icon_footer #social-ig:hover {
+    color: #fb3958;
+  }
+  
+  

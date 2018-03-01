@@ -2,16 +2,22 @@ body {
     font: 400 15px Lato, sans-serif;
     line-height: 1.8;
     color: #818181;
+    background-color: #f6f6f6;
+    font-family: Montserrat, sans-serif;
+    
   }
   p {
     font-size: 18px;
+    font-family: Montserrat, sans-serif;
   }
+  
   h2 {
     font-size: 24px;
     text-transform: uppercase;
     color: #303030;
     font-weight: 600;
     margin-bottom: 30px;
+    font-family: Montserrat, sans-serif;
   }
   h4 {
     font-size: 19px;
@@ -19,30 +25,41 @@ body {
     color: #303030;
     font-weight: 400;
     margin-bottom: 30px;
+    font-family: Montserrat, sans-serif;
+  }
+  #ryan{
+    color: #f4511e;
+    font-weight: lighter;
   }
   .jumbotron {
-    background-color: #f4511e;
-    color: #fff;
-    padding: 80px 25px;
+    background-color: #f6f6f6;
+    color: #f6f6f6;
+    padding: 85px;
     font-family: Montserrat, sans-serif;
     font-size: 28px;
   }
   .profile-image {
     border-radius: 50%;
-    border: 1px solid gray;
+    border: 1px solid grey;
     max-width: 150px;
     height: auto;
     /* text-align: left; */
     margin-top: 10px;
+  }
+  #about {
+    background-color: #f6f6f6;
+    font-family: Montserrat, sans-serif;
   }
   .resume {
     text-align: left;
     margin-left: 10px;
     margin-right: 10px;
     font-size: 18px;
+    font-family: Montserrat, sans-serif;
   }
   .container-fluid {
     padding: 60px 50px;
+    font-family: Montserrat, sans-serif;
   }
   .bg-grey {
     background-color: #f6f6f6;
@@ -96,11 +113,11 @@ body {
   }
   .panel-footer .btn:hover {
     border: 1px solid #f4511e;
-    background-color: #fff !important;
+    background-color: #f6f6f6 !important;
     color: #f4511e;
   }
   .panel-heading {
-    color: #fff !important;
+    color: #f6f6f6 !important;
     background-color: #f4511e !important;
     padding: 25px;
     border-bottom: 1px solid transparent;
@@ -122,7 +139,7 @@ body {
   .panel-footer .btn {
     margin: 15px 0;
     background-color: #f4511e;
-    color: #fff;
+    color: #f6f6f6;
   }
   .navbar {
     margin-bottom: 0;
@@ -137,33 +154,41 @@ body {
   }
   .navbar li a,
   .navbar .navbar-brand {
-    color: #fff !important;
+    color: #f6f6f6 !important;
   }
   .navbar-nav li a:hover,
   .navbar-nav li.active a {
     color: #f4511e !important;
-    background-color: #fff !important;
+    background-color: #f6f6f6 !important;
   }
   .navbar-default .navbar-toggle {
     border-color: transparent;
-    color: #fff !important;
+    color: #f6f6f6 !important;
   }
   #intro {
-    background-image: url("assets/images/coffee-neutral.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("../images/pexels-photo-96414.jpeg");
+        background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #f6f6f6;
+    
     /* background-color: whitesmoke; */
     /* opacity: .8; */
   }
   #footer {
-    background-image: url("assets/images/pexels-wood2.jpeg");
+    background-image: url("");
     background-repeat: no-repeat;
-    background-size: cover;
-    /* background-color: whitesmoke; */
+    background-size: 100%;
+    background-color: #f6f6f6;
     opacity: .9;
     color: #0a0a0a;
     font-style: bold;
+    padding: 0px;
   }
+
+  #contact {
+    background-color: #f6f6f6;
+  }
+
   footer .glyphicon {
     font-size: 20px;
     margin-bottom: 20px;
