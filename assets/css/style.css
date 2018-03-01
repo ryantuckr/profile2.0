@@ -151,6 +151,7 @@ body {
     letter-spacing: 4px;
     border-radius: 0;
     font-family: Montserrat, sans-serif;
+    size: 100%;
   }
   .navbar li a,
   .navbar .navbar-brand {
@@ -167,12 +168,12 @@ body {
   }
   #intro {
     background-image: url("../images/pexels-photo-96414.jpeg");
-        background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: 100%;
     background-color: #f6f6f6;
     
     /* background-color: whitesmoke; */
-    /* opacity: .8; */
+     opacity: .9; 
   }
   #footer {
     background-image: url("");
