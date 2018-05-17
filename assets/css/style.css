@@ -27,6 +27,10 @@ body {
     margin-bottom: 30px;
     font-family: Montserrat, sans-serif;
   }
+
+  strong{
+    color: #f4511e;
+  }
   #ryan{
     color: #f4511e;
     font-weight: lighter;
